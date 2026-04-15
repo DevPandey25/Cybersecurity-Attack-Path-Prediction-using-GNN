@@ -1,0 +1,6645 @@
+{
+  "assets": [
+    {
+      "id": "asset-000",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-000",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.114.71.189",
+      "status": "active"
+    },
+    {
+      "id": "asset-001",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-001",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.16.15.24",
+      "status": "active"
+    },
+    {
+      "id": "asset-002",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-002",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.214.112.115",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-003",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-003",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.216.174.72",
+      "status": "active"
+    },
+    {
+      "id": "asset-004",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-004",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.47.194.25",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-005",
+      "type": "user",
+      "critical": false,
+      "name": "user-005",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.63.193.21",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-006",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-006",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.35.23.170",
+      "status": "active"
+    },
+    {
+      "id": "asset-007",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-007",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.194.142.117",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-008",
+      "type": "user",
+      "critical": false,
+      "name": "user-008",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.136.36.156",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-009",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-009",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.236.194.70",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-010",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-010",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.117.16.207",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-011",
+      "type": "role",
+      "critical": false,
+      "name": "role-011",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.108.255.102",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-012",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-012",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.134.219.230",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-013",
+      "type": "role",
+      "critical": false,
+      "name": "role-013",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.46.24.221",
+      "status": "active"
+    },
+    {
+      "id": "asset-014",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-014",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.197.195.153",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-015",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-015",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.136.174.29",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-016",
+      "type": "role",
+      "critical": false,
+      "name": "role-016",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.91.54.223",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-017",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-017",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.191.82.139",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-018",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-018",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.57.185.225",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-019",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-019",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.248.35.251",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-020",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-020",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.135.216.247",
+      "status": "active"
+    },
+    {
+      "id": "asset-021",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-021",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.204.191.113",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-022",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-022",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.173.10.151",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-023",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-023",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.30.117.18",
+      "status": "active"
+    },
+    {
+      "id": "asset-024",
+      "type": "user",
+      "critical": false,
+      "name": "user-024",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.248.109.139",
+      "status": "active"
+    },
+    {
+      "id": "asset-025",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-025",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.208.97.25",
+      "status": "active"
+    },
+    {
+      "id": "asset-026",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-026",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.239.27.173",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-027",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-027",
+      "region": "ap-southeast-1",
+      "environment": "development",
+      "ip_address": "10.55.127.50",
+      "status": "active"
+    },
+    {
+      "id": "asset-028",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-028",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.142.236.64",
+      "status": "active"
+    },
+    {
+      "id": "asset-029",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-029",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.7.47.238",
+      "status": "active"
+    },
+    {
+      "id": "asset-030",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-030",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.205.30.43",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-031",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-031",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.146.216.179",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-032",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-032",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.97.151.56",
+      "status": "active"
+    },
+    {
+      "id": "asset-033",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-033",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.29.25.150",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-034",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-034",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.41.95.18",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-035",
+      "type": "db",
+      "critical": false,
+      "name": "db-035",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.61.126.149",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-036",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-036",
+      "region": "ap-southeast-1",
+      "environment": "development",
+      "ip_address": "10.133.104.172",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-037",
+      "type": "user",
+      "critical": false,
+      "name": "user-037",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.153.234.81",
+      "status": "active"
+    },
+    {
+      "id": "asset-038",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-038",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.109.135.34",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-039",
+      "type": "db",
+      "critical": false,
+      "name": "db-039",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.80.224.214",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-040",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-040",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.53.68.68",
+      "status": "active"
+    },
+    {
+      "id": "asset-041",
+      "type": "db",
+      "critical": false,
+      "name": "db-041",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.144.107.184",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-042",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-042",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.128.26.24",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-043",
+      "type": "role",
+      "critical": false,
+      "name": "role-043",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.170.66.164",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-044",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-044",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.57.38.242",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-045",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-045",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.220.65.11",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-046",
+      "type": "user",
+      "critical": false,
+      "name": "user-046",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.107.127.171",
+      "status": "active"
+    },
+    {
+      "id": "asset-047",
+      "type": "user",
+      "critical": false,
+      "name": "user-047",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.121.83.250",
+      "status": "active"
+    },
+    {
+      "id": "asset-048",
+      "type": "role",
+      "critical": true,
+      "name": "crown-jewel-role-048",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.127.136.41",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-049",
+      "type": "db",
+      "critical": false,
+      "name": "db-049",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.113.102.210",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-050",
+      "type": "user",
+      "critical": false,
+      "name": "user-050",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.12.98.103",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-051",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-051",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.204.169.241",
+      "status": "active"
+    },
+    {
+      "id": "asset-052",
+      "type": "db",
+      "critical": false,
+      "name": "db-052",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.135.19.28",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-053",
+      "type": "role",
+      "critical": false,
+      "name": "role-053",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.59.197.231",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-054",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-054",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.100.186.111",
+      "status": "active"
+    },
+    {
+      "id": "asset-055",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-055",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.153.158.171",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-056",
+      "type": "user",
+      "critical": false,
+      "name": "user-056",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.98.215.171",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-057",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-057",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.207.0.78",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-058",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-058",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.226.226.173",
+      "status": "active"
+    },
+    {
+      "id": "asset-059",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-059",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.145.171.24",
+      "status": "active"
+    },
+    {
+      "id": "asset-060",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-060",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.12.23.63",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-061",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-061",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.212.99.184",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-062",
+      "type": "role",
+      "critical": false,
+      "name": "role-062",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.2.54.200",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-063",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-063",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.127.62.117",
+      "status": "active"
+    },
+    {
+      "id": "asset-064",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-064",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.218.228.230",
+      "status": "active"
+    },
+    {
+      "id": "asset-065",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-065",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.248.122.71",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-066",
+      "type": "db",
+      "critical": false,
+      "name": "db-066",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.171.163.229",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-067",
+      "type": "db",
+      "critical": false,
+      "name": "db-067",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.78.109.17",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-068",
+      "type": "role",
+      "critical": false,
+      "name": "role-068",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.31.105.214",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-069",
+      "type": "role",
+      "critical": false,
+      "name": "role-069",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.244.3.242",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-070",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-070",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.249.112.70",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-071",
+      "type": "policy",
+      "critical": true,
+      "name": "crown-jewel-policy-071",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.84.239.236",
+      "status": "active"
+    },
+    {
+      "id": "asset-072",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-072",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.42.219.35",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-073",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-073",
+      "region": "ap-southeast-1",
+      "environment": "development",
+      "ip_address": "10.108.232.84",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-074",
+      "type": "role",
+      "critical": false,
+      "name": "role-074",
+      "region": "ap-southeast-1",
+      "environment": "development",
+      "ip_address": "10.41.240.5",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-075",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-075",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.35.20.194",
+      "status": "active"
+    },
+    {
+      "id": "asset-076",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-076",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.122.64.122",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-077",
+      "type": "db",
+      "critical": false,
+      "name": "db-077",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.131.188.43",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-078",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-078",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.159.55.149",
+      "status": "active"
+    },
+    {
+      "id": "asset-079",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-079",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.101.38.152",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-080",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-080",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.21.177.137",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-081",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-081",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.215.250.28",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-082",
+      "type": "user",
+      "critical": false,
+      "name": "user-082",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.222.90.188",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-083",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-083",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.223.137.83",
+      "status": "active"
+    },
+    {
+      "id": "asset-084",
+      "type": "db",
+      "critical": false,
+      "name": "db-084",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.237.194.87",
+      "status": "active"
+    },
+    {
+      "id": "asset-085",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-085",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.108.181.205",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-086",
+      "type": "user",
+      "critical": false,
+      "name": "user-086",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.97.43.62",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-087",
+      "type": "role",
+      "critical": false,
+      "name": "role-087",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.251.229.203",
+      "status": "active"
+    },
+    {
+      "id": "asset-088",
+      "type": "db",
+      "critical": false,
+      "name": "db-088",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.156.188.122",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-089",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-089",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.232.138.79",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-090",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-090",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.61.94.50",
+      "status": "active"
+    },
+    {
+      "id": "asset-091",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-091",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.99.151.59",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-092",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-092",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.23.27.142",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-093",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-093",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.6.145.121",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-094",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-094",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.244.58.211",
+      "status": "active"
+    },
+    {
+      "id": "asset-095",
+      "type": "role",
+      "critical": false,
+      "name": "role-095",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.76.155.22",
+      "status": "active"
+    },
+    {
+      "id": "asset-096",
+      "type": "db",
+      "critical": false,
+      "name": "db-096",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.194.230.233",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-097",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-097",
+      "region": "ap-southeast-1",
+      "environment": "development",
+      "ip_address": "10.30.50.243",
+      "status": "active"
+    },
+    {
+      "id": "asset-098",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-098",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.122.88.142",
+      "status": "active"
+    },
+    {
+      "id": "asset-099",
+      "type": "bucket",
+      "critical": true,
+      "name": "crown-jewel-bucket-099",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.149.16.60",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-100",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-100",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.119.135.202",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-101",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-101",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.58.115.166",
+      "status": "active"
+    },
+    {
+      "id": "asset-102",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-102",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.84.157.153",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-103",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-103",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.239.155.180",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-104",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-104",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.41.20.228",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-105",
+      "type": "user",
+      "critical": false,
+      "name": "user-105",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.117.10.196",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-106",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-106",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.226.142.47",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-107",
+      "type": "role",
+      "critical": false,
+      "name": "role-107",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.240.178.105",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-108",
+      "type": "user",
+      "critical": false,
+      "name": "user-108",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.210.253.74",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-109",
+      "type": "role",
+      "critical": false,
+      "name": "role-109",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.45.161.65",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-110",
+      "type": "db",
+      "critical": false,
+      "name": "db-110",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.236.211.14",
+      "status": "active"
+    },
+    {
+      "id": "asset-111",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-111",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.26.104.69",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-112",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-112",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.62.14.250",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-113",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-113",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.7.208.24",
+      "status": "active"
+    },
+    {
+      "id": "asset-114",
+      "type": "db",
+      "critical": false,
+      "name": "db-114",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.255.149.131",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-115",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-115",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.124.233.142",
+      "status": "active"
+    },
+    {
+      "id": "asset-116",
+      "type": "role",
+      "critical": false,
+      "name": "role-116",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.141.212.88",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-117",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-117",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.250.76.115",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-118",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-118",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.164.96.252",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-119",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-119",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.22.162.191",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-120",
+      "type": "role",
+      "critical": false,
+      "name": "role-120",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.18.64.129",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-121",
+      "type": "user",
+      "critical": false,
+      "name": "user-121",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.233.7.185",
+      "status": "active"
+    },
+    {
+      "id": "asset-122",
+      "type": "role",
+      "critical": false,
+      "name": "role-122",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.240.135.87",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-123",
+      "type": "role",
+      "critical": false,
+      "name": "role-123",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.162.249.224",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-124",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-124",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.116.46.112",
+      "status": "active"
+    },
+    {
+      "id": "asset-125",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-125",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.85.153.232",
+      "status": "active"
+    },
+    {
+      "id": "asset-126",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-126",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.183.191.111",
+      "status": "active"
+    },
+    {
+      "id": "asset-127",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-127",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.89.40.157",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-128",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-128",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.118.236.164",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-129",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-129",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.147.80.19",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-130",
+      "type": "user",
+      "critical": false,
+      "name": "user-130",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.128.233.217",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-131",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-131",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.121.195.147",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-132",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-132",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.202.140.3",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-133",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-133",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.146.117.156",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-134",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-134",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.49.20.80",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-135",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-135",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.151.167.192",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-136",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-136",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.84.131.234",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-137",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-137",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.239.38.37",
+      "status": "active"
+    },
+    {
+      "id": "asset-138",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-138",
+      "region": "ap-southeast-1",
+      "environment": "development",
+      "ip_address": "10.46.202.4",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-139",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-139",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.195.190.28",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-140",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-140",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.32.237.233",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-141",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-141",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.23.19.78",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-142",
+      "type": "db",
+      "critical": false,
+      "name": "db-142",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.232.189.172",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-143",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-143",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.50.250.158",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-144",
+      "type": "subnet",
+      "critical": true,
+      "name": "crown-jewel-subnet-144",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.227.227.244",
+      "status": "active"
+    },
+    {
+      "id": "asset-145",
+      "type": "user",
+      "critical": false,
+      "name": "user-145",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.31.203.71",
+      "status": "active"
+    },
+    {
+      "id": "asset-146",
+      "type": "db",
+      "critical": false,
+      "name": "db-146",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.108.10.13",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-147",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-147",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.106.110.209",
+      "status": "active"
+    },
+    {
+      "id": "asset-148",
+      "type": "user",
+      "critical": false,
+      "name": "user-148",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.74.66.139",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-149",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-149",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.7.183.203",
+      "status": "active"
+    },
+    {
+      "id": "asset-150",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-150",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.26.64.190",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-151",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-151",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.229.185.132",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-152",
+      "type": "db",
+      "critical": false,
+      "name": "db-152",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.154.234.165",
+      "status": "active"
+    },
+    {
+      "id": "asset-153",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-153",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.55.251.183",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-154",
+      "type": "db",
+      "critical": false,
+      "name": "db-154",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.33.64.71",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-155",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-155",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.150.232.130",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-156",
+      "type": "role",
+      "critical": false,
+      "name": "role-156",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.220.231.228",
+      "status": "active"
+    },
+    {
+      "id": "asset-157",
+      "type": "role",
+      "critical": false,
+      "name": "role-157",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.212.48.81",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-158",
+      "type": "user",
+      "critical": false,
+      "name": "user-158",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.242.34.24",
+      "status": "active"
+    },
+    {
+      "id": "asset-159",
+      "type": "db",
+      "critical": false,
+      "name": "db-159",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.30.168.172",
+      "status": "active"
+    },
+    {
+      "id": "asset-160",
+      "type": "role",
+      "critical": false,
+      "name": "role-160",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.147.159.91",
+      "status": "active"
+    },
+    {
+      "id": "asset-161",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-161",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.114.55.90",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-162",
+      "type": "user",
+      "critical": false,
+      "name": "user-162",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.219.13.156",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-163",
+      "type": "subnet",
+      "critical": true,
+      "name": "crown-jewel-subnet-163",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.173.179.2",
+      "status": "active"
+    },
+    {
+      "id": "asset-164",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-164",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.72.15.24",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-165",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-165",
+      "region": "ap-southeast-1",
+      "environment": "testing",
+      "ip_address": "10.174.80.95",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-166",
+      "type": "user",
+      "critical": false,
+      "name": "user-166",
+      "region": "us-east-1",
+      "environment": "production",
+      "ip_address": "10.79.80.194",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-167",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-167",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.217.248.156",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-168",
+      "type": "role",
+      "critical": false,
+      "name": "role-168",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.220.56.73",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-169",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-169",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.112.202.253",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-170",
+      "type": "vm",
+      "critical": true,
+      "name": "crown-jewel-vm-170",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.70.130.75",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-171",
+      "type": "db",
+      "critical": true,
+      "name": "crown-jewel-db-171",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.66.194.137",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-172",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-172",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.203.21.112",
+      "status": "active"
+    },
+    {
+      "id": "asset-173",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-173",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.207.213.75",
+      "status": "active"
+    },
+    {
+      "id": "asset-174",
+      "type": "role",
+      "critical": true,
+      "name": "crown-jewel-role-174",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.235.185.23",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-175",
+      "type": "db",
+      "critical": false,
+      "name": "db-175",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.202.158.191",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-176",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-176",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.58.99.232",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-177",
+      "type": "user",
+      "critical": false,
+      "name": "user-177",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.52.74.66",
+      "status": "active"
+    },
+    {
+      "id": "asset-178",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-178",
+      "region": "us-east-1",
+      "environment": "staging",
+      "ip_address": "10.252.237.194",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-179",
+      "type": "vpn",
+      "critical": false,
+      "name": "vpn-179",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.77.225.18",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-180",
+      "type": "policy",
+      "critical": false,
+      "name": "policy-180",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.180.37.80",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-181",
+      "type": "policy",
+      "critical": true,
+      "name": "crown-jewel-policy-181",
+      "region": "eu-west-1",
+      "environment": "development",
+      "ip_address": "10.39.46.158",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-182",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-182",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.96.164.155",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-183",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-183",
+      "region": "us-east-1",
+      "environment": "testing",
+      "ip_address": "10.52.175.252",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-184",
+      "type": "db",
+      "critical": false,
+      "name": "db-184",
+      "region": "us-west-2",
+      "environment": "production",
+      "ip_address": "10.126.224.254",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-185",
+      "type": "ci_job",
+      "critical": false,
+      "name": "ci_job-185",
+      "region": "us-west-2",
+      "environment": "development",
+      "ip_address": "10.190.144.100",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-186",
+      "type": "user",
+      "critical": false,
+      "name": "user-186",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.33.168.25",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-187",
+      "type": "domain",
+      "critical": false,
+      "name": "domain-187",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.170.41.150",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-188",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-188",
+      "region": "eu-west-1",
+      "environment": "testing",
+      "ip_address": "10.66.43.80",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-189",
+      "type": "role",
+      "critical": false,
+      "name": "role-189",
+      "region": "eu-west-1",
+      "environment": "staging",
+      "ip_address": "10.47.216.131",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-190",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-190",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.174.248.50",
+      "status": "active"
+    },
+    {
+      "id": "asset-191",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-191",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.19.172.225",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-192",
+      "type": "bucket",
+      "critical": false,
+      "name": "bucket-192",
+      "region": "us-west-2",
+      "environment": "staging",
+      "ip_address": "10.92.84.185",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-193",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-193",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.145.229.60",
+      "status": "maintenance"
+    },
+    {
+      "id": "asset-194",
+      "type": "sg",
+      "critical": false,
+      "name": "sg-194",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.188.225.119",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-195",
+      "type": "role",
+      "critical": false,
+      "name": "role-195",
+      "region": "ap-southeast-1",
+      "environment": "staging",
+      "ip_address": "10.102.70.224",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-196",
+      "type": "vm",
+      "critical": false,
+      "name": "vm-196",
+      "region": "eu-west-1",
+      "environment": "production",
+      "ip_address": "10.63.145.22",
+      "status": "active"
+    },
+    {
+      "id": "asset-197",
+      "type": "subnet",
+      "critical": false,
+      "name": "subnet-197",
+      "region": "us-west-2",
+      "environment": "testing",
+      "ip_address": "10.46.113.210",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-198",
+      "type": "user",
+      "critical": false,
+      "name": "user-198",
+      "region": "ap-southeast-1",
+      "environment": "production",
+      "ip_address": "10.202.191.61",
+      "status": "inactive"
+    },
+    {
+      "id": "asset-199",
+      "type": "db",
+      "critical": false,
+      "name": "db-199",
+      "region": "us-east-1",
+      "environment": "development",
+      "ip_address": "10.50.171.203",
+      "status": "active"
+    }
+  ],
+  "software": [
+    {
+      "id": "software-000",
+      "cpe": "cpe:2.3:a:mysql:mysql:8.0.21",
+      "version": "1.4.15",
+      "vendor": "mysql",
+      "name": "MySQL"
+    },
+    {
+      "id": "software-001",
+      "cpe": "cpe:2.3:a:mysql:mysql:8.0.21",
+      "version": "4.7.19",
+      "vendor": "mysql",
+      "name": "MySQL"
+    },
+    {
+      "id": "software-002",
+      "cpe": "cpe:2.3:a:apache:http_server:2.4.41",
+      "version": "1.0.8",
+      "vendor": "apache",
+      "name": "Apache HTTP Server"
+    },
+    {
+      "id": "software-003",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.4",
+      "version": "2.8.19",
+      "vendor": "postgresql",
+      "name": "PostgreSQL"
+    },
+    {
+      "id": "software-004",
+      "cpe": "cpe:2.3:a:python:python:3.8.5",
+      "version": "4.1.9",
+      "vendor": "python",
+      "name": "Python"
+    },
+    {
+      "id": "software-005",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.4",
+      "version": "3.1.1",
+      "vendor": "postgresql",
+      "name": "PostgreSQL"
+    },
+    {
+      "id": "software-006",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.4",
+      "version": "4.9.14",
+      "vendor": "postgresql",
+      "name": "PostgreSQL"
+    },
+    {
+      "id": "software-007",
+      "cpe": "cpe:2.3:a:nginx:nginx:1.18.0",
+      "version": "1.7.19",
+      "vendor": "nginx",
+      "name": "nginx"
+    },
+    {
+      "id": "software-008",
+      "cpe": "cpe:2.3:a:python:python:3.8.5",
+      "version": "1.8.18",
+      "vendor": "python",
+      "name": "Python"
+    },
+    {
+      "id": "software-009",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.4",
+      "version": "2.4.13",
+      "vendor": "postgresql",
+      "name": "PostgreSQL"
+    },
+    {
+      "id": "software-010",
+      "cpe": "cpe:2.3:a:apache:http_server:2.4.41",
+      "version": "5.5.7",
+      "vendor": "apache",
+      "name": "Apache HTTP Server"
+    },
+    {
+      "id": "software-011",
+      "cpe": "cpe:2.3:a:openssh:openssh:8.2",
+      "version": "4.2.2",
+      "vendor": "openssh",
+      "name": "OpenSSH"
+    },
+    {
+      "id": "software-012",
+      "cpe": "cpe:2.3:a:python:python:3.8.5",
+      "version": "3.1.16",
+      "vendor": "python",
+      "name": "Python"
+    },
+    {
+      "id": "software-013",
+      "cpe": "cpe:2.3:a:python:python:3.8.5",
+      "version": "5.8.17",
+      "vendor": "python",
+      "name": "Python"
+    },
+    {
+      "id": "software-014",
+      "cpe": "cpe:2.3:a:apache:http_server:2.4.41",
+      "version": "4.7.1",
+      "vendor": "apache",
+      "name": "Apache HTTP Server"
+    },
+    {
+      "id": "software-015",
+      "cpe": "cpe:2.3:a:kubernetes:kubernetes:1.19.0",
+      "version": "3.4.0",
+      "vendor": "kubernetes",
+      "name": "Kubernetes"
+    },
+    {
+      "id": "software-016",
+      "cpe": "cpe:2.3:a:docker:docker:20.10.0",
+      "version": "1.5.7",
+      "vendor": "docker",
+      "name": "Docker"
+    },
+    {
+      "id": "software-017",
+      "cpe": "cpe:2.3:a:nginx:nginx:1.18.0",
+      "version": "5.5.4",
+      "vendor": "nginx",
+      "name": "nginx"
+    },
+    {
+      "id": "software-018",
+      "cpe": "cpe:2.3:a:apache:http_server:2.4.41",
+      "version": "3.8.10",
+      "vendor": "apache",
+      "name": "Apache HTTP Server"
+    },
+    {
+      "id": "software-019",
+      "cpe": "cpe:2.3:a:mysql:mysql:8.0.21",
+      "version": "4.7.20",
+      "vendor": "mysql",
+      "name": "MySQL"
+    },
+    {
+      "id": "software-020",
+      "cpe": "cpe:2.3:a:mysql:mysql:8.0.21",
+      "version": "2.1.14",
+      "vendor": "mysql",
+      "name": "MySQL"
+    },
+    {
+      "id": "software-021",
+      "cpe": "cpe:2.3:a:apache:http_server:2.4.41",
+      "version": "3.3.1",
+      "vendor": "apache",
+      "name": "Apache HTTP Server"
+    },
+    {
+      "id": "software-022",
+      "cpe": "cpe:2.3:a:postgresql:postgresql:12.4",
+      "version": "1.5.9",
+      "vendor": "postgresql",
+      "name": "PostgreSQL"
+    },
+    {
+      "id": "software-023",
+      "cpe": "cpe:2.3:a:python:python:3.8.5",
+      "version": "4.8.15",
+      "vendor": "python",
+      "name": "Python"
+    },
+    {
+      "id": "software-024",
+      "cpe": "cpe:2.3:a:redis:redis:6.0.8",
+      "version": "1.3.9",
+      "vendor": "redis",
+      "name": "Redis"
+    },
+    {
+      "id": "software-025",
+      "cpe": "cpe:2.3:a:docker:docker:20.10.0",
+      "version": "1.5.8",
+      "vendor": "docker",
+      "name": "Docker"
+    },
+    {
+      "id": "software-026",
+      "cpe": "cpe:2.3:a:nginx:nginx:1.18.0",
+      "version": "3.6.12",
+      "vendor": "nginx",
+      "name": "nginx"
+    },
+    {
+      "id": "software-027",
+      "cpe": "cpe:2.3:a:nodejs:node.js:14.15.0",
+      "version": "4.5.5",
+      "vendor": "nodejs",
+      "name": "Node.js"
+    },
+    {
+      "id": "software-028",
+      "cpe": "cpe:2.3:a:nodejs:node.js:14.15.0",
+      "version": "4.5.16",
+      "vendor": "nodejs",
+      "name": "Node.js"
+    },
+    {
+      "id": "software-029",
+      "cpe": "cpe:2.3:a:redis:redis:6.0.8",
+      "version": "1.6.2",
+      "vendor": "redis",
+      "name": "Redis"
+    },
+    {
+      "id": "software-030",
+      "cpe": "cpe:2.3:a:kubernetes:kubernetes:1.19.0",
+      "version": "5.2.17",
+      "vendor": "kubernetes",
+      "name": "Kubernetes"
+    },
+    {
+      "id": "software-031",
+      "cpe": "cpe:2.3:a:redis:redis:6.0.8",
+      "version": "3.1.2",
+      "vendor": "redis",
+      "name": "Redis"
+    },
+    {
+      "id": "software-032",
+      "cpe": "cpe:2.3:a:docker:docker:20.10.0",
+      "version": "3.4.14",
+      "vendor": "docker",
+      "name": "Docker"
+    },
+    {
+      "id": "software-033",
+      "cpe": "cpe:2.3:a:openssh:openssh:8.2",
+      "version": "4.2.14",
+      "vendor": "openssh",
+      "name": "OpenSSH"
+    },
+    {
+      "id": "software-034",
+      "cpe": "cpe:2.3:a:docker:docker:20.10.0",
+      "version": "4.0.11",
+      "vendor": "docker",
+      "name": "Docker"
+    },
+    {
+      "id": "software-035",
+      "cpe": "cpe:2.3:a:openssh:openssh:8.2",
+      "version": "4.4.20",
+      "vendor": "openssh",
+      "name": "OpenSSH"
+    },
+    {
+      "id": "software-036",
+      "cpe": "cpe:2.3:a:apache:http_server:2.4.41",
+      "version": "1.6.11",
+      "vendor": "apache",
+      "name": "Apache HTTP Server"
+    },
+    {
+      "id": "software-037",
+      "cpe": "cpe:2.3:a:python:python:3.8.5",
+      "version": "2.0.4",
+      "vendor": "python",
+      "name": "Python"
+    },
+    {
+      "id": "software-038",
+      "cpe": "cpe:2.3:a:openssh:openssh:8.2",
+      "version": "4.0.4",
+      "vendor": "openssh",
+      "name": "OpenSSH"
+    },
+    {
+      "id": "software-039",
+      "cpe": "cpe:2.3:a:nginx:nginx:1.18.0",
+      "version": "2.5.11",
+      "vendor": "nginx",
+      "name": "nginx"
+    },
+    {
+      "id": "software-040",
+      "cpe": "cpe:2.3:a:kubernetes:kubernetes:1.19.0",
+      "version": "5.0.19",
+      "vendor": "kubernetes",
+      "name": "Kubernetes"
+    },
+    {
+      "id": "software-041",
+      "cpe": "cpe:2.3:a:mysql:mysql:8.0.21",
+      "version": "4.5.11",
+      "vendor": "mysql",
+      "name": "MySQL"
+    },
+    {
+      "id": "software-042",
+      "cpe": "cpe:2.3:a:nodejs:node.js:14.15.0",
+      "version": "1.9.4",
+      "vendor": "nodejs",
+      "name": "Node.js"
+    },
+    {
+      "id": "software-043",
+      "cpe": "cpe:2.3:a:python:python:3.8.5",
+      "version": "3.6.10",
+      "vendor": "python",
+      "name": "Python"
+    },
+    {
+      "id": "software-044",
+      "cpe": "cpe:2.3:a:redis:redis:6.0.8",
+      "version": "2.1.0",
+      "vendor": "redis",
+      "name": "Redis"
+    },
+    {
+      "id": "software-045",
+      "cpe": "cpe:2.3:a:mysql:mysql:8.0.21",
+      "version": "4.8.12",
+      "vendor": "mysql",
+      "name": "MySQL"
+    },
+    {
+      "id": "software-046",
+      "cpe": "cpe:2.3:a:python:python:3.8.5",
+      "version": "1.4.8",
+      "vendor": "python",
+      "name": "Python"
+    },
+    {
+      "id": "software-047",
+      "cpe": "cpe:2.3:a:nodejs:node.js:14.15.0",
+      "version": "2.9.9",
+      "vendor": "nodejs",
+      "name": "Node.js"
+    },
+    {
+      "id": "software-048",
+      "cpe": "cpe:2.3:a:nodejs:node.js:14.15.0",
+      "version": "2.1.4",
+      "vendor": "nodejs",
+      "name": "Node.js"
+    },
+    {
+      "id": "software-049",
+      "cpe": "cpe:2.3:a:nginx:nginx:1.18.0",
+      "version": "4.2.14",
+      "vendor": "nginx",
+      "name": "nginx"
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2021-45046",
+      "cvss": 9.0,
+      "exploit_available": true,
+      "published_date": "2025-03-29T16:49:27.770674",
+      "description": "Log4j RCE vulnerability"
+    },
+    {
+      "cve": "CVE-2021-34527",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-04-06T16:49:27.770674",
+      "description": "Windows Print Spooler RCE"
+    },
+    {
+      "cve": "CVE-2021-34527",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-03-15T16:49:27.770674",
+      "description": "Windows Print Spooler RCE"
+    },
+    {
+      "cve": "CVE-2021-45046",
+      "cvss": 9.0,
+      "exploit_available": true,
+      "published_date": "2025-06-05T16:49:27.770674",
+      "description": "Log4j RCE vulnerability"
+    },
+    {
+      "cve": "CVE-2021-20016",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-10-16T16:49:27.770674",
+      "description": "SonicWall SMA RCE"
+    },
+    {
+      "cve": "CVE-2021-22205",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-12-23T16:49:27.770674",
+      "description": "GitLab RCE vulnerability"
+    },
+    {
+      "cve": "CVE-2021-41773",
+      "cvss": 7.5,
+      "exploit_available": true,
+      "published_date": "2025-09-09T16:49:27.770674",
+      "description": "Apache HTTP Server path traversal"
+    },
+    {
+      "cve": "CVE-2021-20016",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-11-19T16:49:27.770674",
+      "description": "SonicWall SMA RCE"
+    },
+    {
+      "cve": "CVE-2021-45046",
+      "cvss": 9.0,
+      "exploit_available": true,
+      "published_date": "2025-12-01T16:49:27.770674",
+      "description": "Log4j RCE vulnerability"
+    },
+    {
+      "cve": "CVE-2021-41773",
+      "cvss": 7.5,
+      "exploit_available": true,
+      "published_date": "2025-11-12T16:49:27.770674",
+      "description": "Apache HTTP Server path traversal"
+    },
+    {
+      "cve": "CVE-2021-21972",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2026-02-28T16:49:27.770674",
+      "description": "VMware vCenter Server RCE"
+    },
+    {
+      "cve": "CVE-2021-34527",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-06-03T16:49:27.770674",
+      "description": "Windows Print Spooler RCE"
+    },
+    {
+      "cve": "CVE-2021-1675",
+      "cvss": 8.8,
+      "exploit_available": true,
+      "published_date": "2025-09-06T16:49:27.770674",
+      "description": "Windows Print Spooler privilege escalation"
+    },
+    {
+      "cve": "CVE-2021-21972",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-06-04T16:49:27.770674",
+      "description": "VMware vCenter Server RCE"
+    },
+    {
+      "cve": "CVE-2021-41773",
+      "cvss": 7.5,
+      "exploit_available": true,
+      "published_date": "2025-05-04T16:49:27.770674",
+      "description": "Apache HTTP Server path traversal"
+    },
+    {
+      "cve": "CVE-2021-45046",
+      "cvss": 9.0,
+      "exploit_available": true,
+      "published_date": "2026-02-08T16:49:27.770674",
+      "description": "Log4j RCE vulnerability"
+    },
+    {
+      "cve": "CVE-2021-22205",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-08-22T16:49:27.770674",
+      "description": "GitLab RCE vulnerability"
+    },
+    {
+      "cve": "CVE-2021-21972",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-06-17T16:49:27.770674",
+      "description": "VMware vCenter Server RCE"
+    },
+    {
+      "cve": "CVE-2021-26855",
+      "cvss": 9.1,
+      "exploit_available": true,
+      "published_date": "2025-08-16T16:49:27.770674",
+      "description": "Microsoft Exchange Server RCE"
+    },
+    {
+      "cve": "CVE-2021-1675",
+      "cvss": 8.8,
+      "exploit_available": true,
+      "published_date": "2026-02-04T16:49:27.770674",
+      "description": "Windows Print Spooler privilege escalation"
+    },
+    {
+      "cve": "CVE-2021-41773",
+      "cvss": 7.5,
+      "exploit_available": true,
+      "published_date": "2025-10-02T16:49:27.770674",
+      "description": "Apache HTTP Server path traversal"
+    },
+    {
+      "cve": "CVE-2021-45046",
+      "cvss": 9.0,
+      "exploit_available": true,
+      "published_date": "2025-07-26T16:49:27.770674",
+      "description": "Log4j RCE vulnerability"
+    },
+    {
+      "cve": "CVE-2021-21972",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-03-30T16:49:27.770674",
+      "description": "VMware vCenter Server RCE"
+    },
+    {
+      "cve": "CVE-2021-20016",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2025-09-18T16:49:27.770674",
+      "description": "SonicWall SMA RCE"
+    },
+    {
+      "cve": "CVE-2021-41773",
+      "cvss": 7.5,
+      "exploit_available": true,
+      "published_date": "2025-06-04T16:49:27.770674",
+      "description": "Apache HTTP Server path traversal"
+    },
+    {
+      "cve": "CVE-2021-1675",
+      "cvss": 8.8,
+      "exploit_available": true,
+      "published_date": "2025-12-10T16:49:27.770674",
+      "description": "Windows Print Spooler privilege escalation"
+    },
+    {
+      "cve": "CVE-2021-41773",
+      "cvss": 7.5,
+      "exploit_available": true,
+      "published_date": "2025-08-04T16:49:27.770674",
+      "description": "Apache HTTP Server path traversal"
+    },
+    {
+      "cve": "CVE-2021-20016",
+      "cvss": 9.8,
+      "exploit_available": true,
+      "published_date": "2026-02-13T16:49:27.770674",
+      "description": "SonicWall SMA RCE"
+    },
+    {
+      "cve": "CVE-2021-45046",
+      "cvss": 9.0,
+      "exploit_available": true,
+      "published_date": "2025-06-21T16:49:27.770674",
+      "description": "Log4j RCE vulnerability"
+    },
+    {
+      "cve": "CVE-2021-41773",
+      "cvss": 7.5,
+      "exploit_available": true,
+      "published_date": "2025-10-09T16:49:27.770674",
+      "description": "Apache HTTP Server path traversal"
+    }
+  ],
+  "findings": [
+    {
+      "id": "finding-000",
+      "severity": "high",
+      "first_seen": "2026-03-08T16:49:27.770674",
+      "last_seen": "2026-03-09T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 000 - misconfiguration found"
+    },
+    {
+      "id": "finding-001",
+      "severity": "info",
+      "first_seen": "2026-02-13T16:49:27.770674",
+      "last_seen": "2026-03-10T16:49:27.770674",
+      "status": "open",
+      "description": "Security finding 001 - misconfiguration found"
+    },
+    {
+      "id": "finding-002",
+      "severity": "high",
+      "first_seen": "2026-02-21T16:49:27.770674",
+      "last_seen": "2026-03-10T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 002 - anomaly detected"
+    },
+    {
+      "id": "finding-003",
+      "severity": "medium",
+      "first_seen": "2026-02-22T16:49:27.770674",
+      "last_seen": "2026-03-13T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 003 - anomaly detected"
+    },
+    {
+      "id": "finding-004",
+      "severity": "info",
+      "first_seen": "2026-03-09T16:49:27.770674",
+      "last_seen": "2026-03-12T16:49:27.770674",
+      "status": "resolved",
+      "description": "Security finding 004 - anomaly detected"
+    },
+    {
+      "id": "finding-005",
+      "severity": "critical",
+      "first_seen": "2026-02-15T16:49:27.770674",
+      "last_seen": "2026-03-14T16:49:27.770674",
+      "status": "open",
+      "description": "Security finding 005 - vulnerability detected"
+    },
+    {
+      "id": "finding-006",
+      "severity": "info",
+      "first_seen": "2026-03-05T16:49:27.770674",
+      "last_seen": "2026-03-11T16:49:27.770674",
+      "status": "false_positive",
+      "description": "Security finding 006 - anomaly detected"
+    },
+    {
+      "id": "finding-007",
+      "severity": "critical",
+      "first_seen": "2026-02-26T16:49:27.770674",
+      "last_seen": "2026-03-10T16:49:27.770674",
+      "status": "resolved",
+      "description": "Security finding 007 - misconfiguration found"
+    },
+    {
+      "id": "finding-008",
+      "severity": "high",
+      "first_seen": "2026-02-16T16:49:27.770674",
+      "last_seen": "2026-03-08T16:49:27.770674",
+      "status": "resolved",
+      "description": "Security finding 008 - misconfiguration found"
+    },
+    {
+      "id": "finding-009",
+      "severity": "critical",
+      "first_seen": "2026-02-19T16:49:27.770674",
+      "last_seen": "2026-03-14T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 009 - misconfiguration found"
+    },
+    {
+      "id": "finding-010",
+      "severity": "low",
+      "first_seen": "2026-02-26T16:49:27.770674",
+      "last_seen": "2026-03-07T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 010 - misconfiguration found"
+    },
+    {
+      "id": "finding-011",
+      "severity": "info",
+      "first_seen": "2026-03-09T16:49:27.770674",
+      "last_seen": "2026-03-09T16:49:27.770674",
+      "status": "resolved",
+      "description": "Security finding 011 - anomaly detected"
+    },
+    {
+      "id": "finding-012",
+      "severity": "medium",
+      "first_seen": "2026-03-01T16:49:27.770674",
+      "last_seen": "2026-03-12T16:49:27.770674",
+      "status": "resolved",
+      "description": "Security finding 012 - anomaly detected"
+    },
+    {
+      "id": "finding-013",
+      "severity": "info",
+      "first_seen": "2026-03-10T16:49:27.770674",
+      "last_seen": "2026-03-09T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 013 - misconfiguration found"
+    },
+    {
+      "id": "finding-014",
+      "severity": "critical",
+      "first_seen": "2026-03-05T16:49:27.770674",
+      "last_seen": "2026-03-07T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 014 - vulnerability detected"
+    },
+    {
+      "id": "finding-015",
+      "severity": "critical",
+      "first_seen": "2026-03-12T16:49:27.770674",
+      "last_seen": "2026-03-10T16:49:27.770674",
+      "status": "false_positive",
+      "description": "Security finding 015 - anomaly detected"
+    },
+    {
+      "id": "finding-016",
+      "severity": "low",
+      "first_seen": "2026-03-06T16:49:27.770674",
+      "last_seen": "2026-03-12T16:49:27.770674",
+      "status": "resolved",
+      "description": "Security finding 016 - anomaly detected"
+    },
+    {
+      "id": "finding-017",
+      "severity": "medium",
+      "first_seen": "2026-03-07T16:49:27.770674",
+      "last_seen": "2026-03-12T16:49:27.770674",
+      "status": "false_positive",
+      "description": "Security finding 017 - anomaly detected"
+    },
+    {
+      "id": "finding-018",
+      "severity": "low",
+      "first_seen": "2026-02-26T16:49:27.770674",
+      "last_seen": "2026-03-10T16:49:27.770674",
+      "status": "false_positive",
+      "description": "Security finding 018 - vulnerability detected"
+    },
+    {
+      "id": "finding-019",
+      "severity": "critical",
+      "first_seen": "2026-03-01T16:49:27.770674",
+      "last_seen": "2026-03-07T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 019 - vulnerability detected"
+    },
+    {
+      "id": "finding-020",
+      "severity": "info",
+      "first_seen": "2026-03-02T16:49:27.770674",
+      "last_seen": "2026-03-14T16:49:27.770674",
+      "status": "open",
+      "description": "Security finding 020 - misconfiguration found"
+    },
+    {
+      "id": "finding-021",
+      "severity": "low",
+      "first_seen": "2026-02-22T16:49:27.770674",
+      "last_seen": "2026-03-07T16:49:27.770674",
+      "status": "resolved",
+      "description": "Security finding 021 - anomaly detected"
+    },
+    {
+      "id": "finding-022",
+      "severity": "critical",
+      "first_seen": "2026-02-14T16:49:27.770674",
+      "last_seen": "2026-03-13T16:49:27.770674",
+      "status": "false_positive",
+      "description": "Security finding 022 - vulnerability detected"
+    },
+    {
+      "id": "finding-023",
+      "severity": "medium",
+      "first_seen": "2026-02-18T16:49:27.770674",
+      "last_seen": "2026-03-09T16:49:27.770674",
+      "status": "false_positive",
+      "description": "Security finding 023 - misconfiguration found"
+    },
+    {
+      "id": "finding-024",
+      "severity": "critical",
+      "first_seen": "2026-03-01T16:49:27.770674",
+      "last_seen": "2026-03-14T16:49:27.770674",
+      "status": "in_progress",
+      "description": "Security finding 024 - misconfiguration found"
+    },
+    {
+      "id": "finding-025",
+      "severity": "info",
+      "first_seen": "2026-03-04T16:49:27.770674",
+      "last_seen": "2026-03-13T16:49:27.770674",
+      "status": "false_positive",
+      "description": "Security finding 025 - anomaly detected"
+    },
+    {
+      "id": "finding-026",
+      "severity": "low",
+      "first_seen": "2026-02-17T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 026 - vulnerability detected"
+    },
+    {
+      "id": "finding-027",
+      "severity": "critical",
+      "first_seen": "2026-03-01T16:49:27.771672",
+      "last_seen": "2026-03-09T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 027 - anomaly detected"
+    },
+    {
+      "id": "finding-028",
+      "severity": "medium",
+      "first_seen": "2026-02-17T16:49:27.771672",
+      "last_seen": "2026-03-12T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 028 - anomaly detected"
+    },
+    {
+      "id": "finding-029",
+      "severity": "info",
+      "first_seen": "2026-03-01T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 029 - vulnerability detected"
+    },
+    {
+      "id": "finding-030",
+      "severity": "high",
+      "first_seen": "2026-02-19T16:49:27.771672",
+      "last_seen": "2026-03-09T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 030 - anomaly detected"
+    },
+    {
+      "id": "finding-031",
+      "severity": "low",
+      "first_seen": "2026-03-09T16:49:27.771672",
+      "last_seen": "2026-03-12T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 031 - anomaly detected"
+    },
+    {
+      "id": "finding-032",
+      "severity": "medium",
+      "first_seen": "2026-03-08T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 032 - anomaly detected"
+    },
+    {
+      "id": "finding-033",
+      "severity": "medium",
+      "first_seen": "2026-02-25T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 033 - misconfiguration found"
+    },
+    {
+      "id": "finding-034",
+      "severity": "critical",
+      "first_seen": "2026-03-02T16:49:27.771672",
+      "last_seen": "2026-03-09T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 034 - misconfiguration found"
+    },
+    {
+      "id": "finding-035",
+      "severity": "info",
+      "first_seen": "2026-03-04T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 035 - misconfiguration found"
+    },
+    {
+      "id": "finding-036",
+      "severity": "info",
+      "first_seen": "2026-02-23T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 036 - anomaly detected"
+    },
+    {
+      "id": "finding-037",
+      "severity": "low",
+      "first_seen": "2026-03-08T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 037 - anomaly detected"
+    },
+    {
+      "id": "finding-038",
+      "severity": "high",
+      "first_seen": "2026-03-12T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 038 - vulnerability detected"
+    },
+    {
+      "id": "finding-039",
+      "severity": "low",
+      "first_seen": "2026-03-03T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 039 - misconfiguration found"
+    },
+    {
+      "id": "finding-040",
+      "severity": "high",
+      "first_seen": "2026-02-28T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 040 - anomaly detected"
+    },
+    {
+      "id": "finding-041",
+      "severity": "high",
+      "first_seen": "2026-02-25T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 041 - anomaly detected"
+    },
+    {
+      "id": "finding-042",
+      "severity": "low",
+      "first_seen": "2026-02-25T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 042 - vulnerability detected"
+    },
+    {
+      "id": "finding-043",
+      "severity": "low",
+      "first_seen": "2026-02-12T16:49:27.771672",
+      "last_seen": "2026-03-09T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 043 - anomaly detected"
+    },
+    {
+      "id": "finding-044",
+      "severity": "medium",
+      "first_seen": "2026-02-22T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 044 - vulnerability detected"
+    },
+    {
+      "id": "finding-045",
+      "severity": "medium",
+      "first_seen": "2026-02-24T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 045 - misconfiguration found"
+    },
+    {
+      "id": "finding-046",
+      "severity": "medium",
+      "first_seen": "2026-02-19T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 046 - misconfiguration found"
+    },
+    {
+      "id": "finding-047",
+      "severity": "low",
+      "first_seen": "2026-03-02T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 047 - vulnerability detected"
+    },
+    {
+      "id": "finding-048",
+      "severity": "info",
+      "first_seen": "2026-02-20T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 048 - misconfiguration found"
+    },
+    {
+      "id": "finding-049",
+      "severity": "high",
+      "first_seen": "2026-03-04T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 049 - anomaly detected"
+    },
+    {
+      "id": "finding-050",
+      "severity": "critical",
+      "first_seen": "2026-03-02T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 050 - anomaly detected"
+    },
+    {
+      "id": "finding-051",
+      "severity": "low",
+      "first_seen": "2026-03-07T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 051 - anomaly detected"
+    },
+    {
+      "id": "finding-052",
+      "severity": "medium",
+      "first_seen": "2026-03-09T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 052 - vulnerability detected"
+    },
+    {
+      "id": "finding-053",
+      "severity": "critical",
+      "first_seen": "2026-02-20T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 053 - vulnerability detected"
+    },
+    {
+      "id": "finding-054",
+      "severity": "critical",
+      "first_seen": "2026-02-28T16:49:27.771672",
+      "last_seen": "2026-03-09T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 054 - vulnerability detected"
+    },
+    {
+      "id": "finding-055",
+      "severity": "high",
+      "first_seen": "2026-03-13T16:49:27.771672",
+      "last_seen": "2026-03-12T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 055 - anomaly detected"
+    },
+    {
+      "id": "finding-056",
+      "severity": "low",
+      "first_seen": "2026-02-26T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 056 - misconfiguration found"
+    },
+    {
+      "id": "finding-057",
+      "severity": "medium",
+      "first_seen": "2026-02-21T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 057 - anomaly detected"
+    },
+    {
+      "id": "finding-058",
+      "severity": "info",
+      "first_seen": "2026-03-06T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 058 - misconfiguration found"
+    },
+    {
+      "id": "finding-059",
+      "severity": "high",
+      "first_seen": "2026-02-12T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 059 - misconfiguration found"
+    },
+    {
+      "id": "finding-060",
+      "severity": "high",
+      "first_seen": "2026-02-12T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 060 - vulnerability detected"
+    },
+    {
+      "id": "finding-061",
+      "severity": "medium",
+      "first_seen": "2026-02-23T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 061 - misconfiguration found"
+    },
+    {
+      "id": "finding-062",
+      "severity": "low",
+      "first_seen": "2026-02-21T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 062 - anomaly detected"
+    },
+    {
+      "id": "finding-063",
+      "severity": "low",
+      "first_seen": "2026-03-05T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 063 - misconfiguration found"
+    },
+    {
+      "id": "finding-064",
+      "severity": "high",
+      "first_seen": "2026-02-18T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 064 - anomaly detected"
+    },
+    {
+      "id": "finding-065",
+      "severity": "high",
+      "first_seen": "2026-03-13T16:49:27.771672",
+      "last_seen": "2026-03-09T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 065 - anomaly detected"
+    },
+    {
+      "id": "finding-066",
+      "severity": "high",
+      "first_seen": "2026-03-08T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 066 - anomaly detected"
+    },
+    {
+      "id": "finding-067",
+      "severity": "medium",
+      "first_seen": "2026-03-11T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 067 - vulnerability detected"
+    },
+    {
+      "id": "finding-068",
+      "severity": "high",
+      "first_seen": "2026-02-26T16:49:27.771672",
+      "last_seen": "2026-03-09T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 068 - vulnerability detected"
+    },
+    {
+      "id": "finding-069",
+      "severity": "medium",
+      "first_seen": "2026-03-01T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 069 - misconfiguration found"
+    },
+    {
+      "id": "finding-070",
+      "severity": "medium",
+      "first_seen": "2026-03-04T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 070 - anomaly detected"
+    },
+    {
+      "id": "finding-071",
+      "severity": "medium",
+      "first_seen": "2026-02-19T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 071 - anomaly detected"
+    },
+    {
+      "id": "finding-072",
+      "severity": "critical",
+      "first_seen": "2026-02-27T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 072 - misconfiguration found"
+    },
+    {
+      "id": "finding-073",
+      "severity": "info",
+      "first_seen": "2026-02-12T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 073 - anomaly detected"
+    },
+    {
+      "id": "finding-074",
+      "severity": "medium",
+      "first_seen": "2026-03-02T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 074 - vulnerability detected"
+    },
+    {
+      "id": "finding-075",
+      "severity": "low",
+      "first_seen": "2026-03-09T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 075 - misconfiguration found"
+    },
+    {
+      "id": "finding-076",
+      "severity": "info",
+      "first_seen": "2026-02-12T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 076 - vulnerability detected"
+    },
+    {
+      "id": "finding-077",
+      "severity": "info",
+      "first_seen": "2026-02-14T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 077 - anomaly detected"
+    },
+    {
+      "id": "finding-078",
+      "severity": "medium",
+      "first_seen": "2026-03-11T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 078 - anomaly detected"
+    },
+    {
+      "id": "finding-079",
+      "severity": "info",
+      "first_seen": "2026-03-07T16:49:27.771672",
+      "last_seen": "2026-03-12T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 079 - misconfiguration found"
+    },
+    {
+      "id": "finding-080",
+      "severity": "info",
+      "first_seen": "2026-02-27T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 080 - anomaly detected"
+    },
+    {
+      "id": "finding-081",
+      "severity": "info",
+      "first_seen": "2026-02-26T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 081 - vulnerability detected"
+    },
+    {
+      "id": "finding-082",
+      "severity": "low",
+      "first_seen": "2026-03-09T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 082 - anomaly detected"
+    },
+    {
+      "id": "finding-083",
+      "severity": "critical",
+      "first_seen": "2026-02-24T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 083 - anomaly detected"
+    },
+    {
+      "id": "finding-084",
+      "severity": "critical",
+      "first_seen": "2026-03-01T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 084 - anomaly detected"
+    },
+    {
+      "id": "finding-085",
+      "severity": "high",
+      "first_seen": "2026-02-23T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 085 - misconfiguration found"
+    },
+    {
+      "id": "finding-086",
+      "severity": "medium",
+      "first_seen": "2026-02-19T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 086 - vulnerability detected"
+    },
+    {
+      "id": "finding-087",
+      "severity": "low",
+      "first_seen": "2026-03-12T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 087 - vulnerability detected"
+    },
+    {
+      "id": "finding-088",
+      "severity": "high",
+      "first_seen": "2026-02-17T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "resolved",
+      "description": "Security finding 088 - misconfiguration found"
+    },
+    {
+      "id": "finding-089",
+      "severity": "low",
+      "first_seen": "2026-02-14T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 089 - vulnerability detected"
+    },
+    {
+      "id": "finding-090",
+      "severity": "info",
+      "first_seen": "2026-03-09T16:49:27.771672",
+      "last_seen": "2026-03-09T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 090 - vulnerability detected"
+    },
+    {
+      "id": "finding-091",
+      "severity": "info",
+      "first_seen": "2026-03-01T16:49:27.771672",
+      "last_seen": "2026-03-12T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 091 - vulnerability detected"
+    },
+    {
+      "id": "finding-092",
+      "severity": "critical",
+      "first_seen": "2026-03-04T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "false_positive",
+      "description": "Security finding 092 - anomaly detected"
+    },
+    {
+      "id": "finding-093",
+      "severity": "low",
+      "first_seen": "2026-02-15T16:49:27.771672",
+      "last_seen": "2026-03-11T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 093 - misconfiguration found"
+    },
+    {
+      "id": "finding-094",
+      "severity": "medium",
+      "first_seen": "2026-03-09T16:49:27.771672",
+      "last_seen": "2026-03-10T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 094 - anomaly detected"
+    },
+    {
+      "id": "finding-095",
+      "severity": "critical",
+      "first_seen": "2026-03-12T16:49:27.771672",
+      "last_seen": "2026-03-08T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 095 - vulnerability detected"
+    },
+    {
+      "id": "finding-096",
+      "severity": "high",
+      "first_seen": "2026-03-11T16:49:27.771672",
+      "last_seen": "2026-03-13T16:49:27.771672",
+      "status": "open",
+      "description": "Security finding 096 - misconfiguration found"
+    },
+    {
+      "id": "finding-097",
+      "severity": "info",
+      "first_seen": "2026-02-20T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 097 - anomaly detected"
+    },
+    {
+      "id": "finding-098",
+      "severity": "critical",
+      "first_seen": "2026-03-01T16:49:27.771672",
+      "last_seen": "2026-03-07T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 098 - anomaly detected"
+    },
+    {
+      "id": "finding-099",
+      "severity": "high",
+      "first_seen": "2026-02-17T16:49:27.771672",
+      "last_seen": "2026-03-14T16:49:27.771672",
+      "status": "in_progress",
+      "description": "Security finding 099 - anomaly detected"
+    }
+  ],
+  "controls": [
+    {
+      "id": "control-000",
+      "type": "patch",
+      "status": "active",
+      "description": "Security control 000 - MFA requirement",
+      "created_date": "2026-02-01T16:49:27.771672"
+    },
+    {
+      "id": "control-001",
+      "type": "mfa_requirement",
+      "status": "pending",
+      "description": "Security control 001 - patch requirement",
+      "created_date": "2026-02-11T16:49:27.771672"
+    },
+    {
+      "id": "control-002",
+      "type": "patch",
+      "status": "active",
+      "description": "Security control 002 - MFA requirement",
+      "created_date": "2026-02-13T16:49:27.771672"
+    },
+    {
+      "id": "control-003",
+      "type": "waf_rule",
+      "status": "inactive",
+      "description": "Security control 003 - patch requirement",
+      "created_date": "2026-03-06T16:49:27.772672"
+    },
+    {
+      "id": "control-004",
+      "type": "mfa_requirement",
+      "status": "pending",
+      "description": "Security control 004 - IAM policy",
+      "created_date": "2025-12-23T16:49:27.772672"
+    },
+    {
+      "id": "control-005",
+      "type": "waf_rule",
+      "status": "pending",
+      "description": "Security control 005 - WAF rule",
+      "created_date": "2026-03-07T16:49:27.772672"
+    },
+    {
+      "id": "control-006",
+      "type": "patch",
+      "status": "pending",
+      "description": "Security control 006 - WAF rule",
+      "created_date": "2026-01-05T16:49:27.772672"
+    },
+    {
+      "id": "control-007",
+      "type": "patch",
+      "status": "pending",
+      "description": "Security control 007 - WAF rule",
+      "created_date": "2026-01-20T16:49:27.772672"
+    },
+    {
+      "id": "control-008",
+      "type": "iam_policy",
+      "status": "inactive",
+      "description": "Security control 008 - WAF rule",
+      "created_date": "2026-02-18T16:49:27.772672"
+    },
+    {
+      "id": "control-009",
+      "type": "mfa_requirement",
+      "status": "inactive",
+      "description": "Security control 009 - IAM policy",
+      "created_date": "2026-02-13T16:49:27.772672"
+    },
+    {
+      "id": "control-010",
+      "type": "patch",
+      "status": "pending",
+      "description": "Security control 010 - IAM policy",
+      "created_date": "2026-01-13T16:49:27.772672"
+    },
+    {
+      "id": "control-011",
+      "type": "sg_rule",
+      "status": "pending",
+      "description": "Security control 011 - WAF rule",
+      "created_date": "2026-01-19T16:49:27.772672"
+    },
+    {
+      "id": "control-012",
+      "type": "mfa_requirement",
+      "status": "pending",
+      "description": "Security control 012 - IAM policy",
+      "created_date": "2026-01-23T16:49:27.772672"
+    },
+    {
+      "id": "control-013",
+      "type": "iam_policy",
+      "status": "inactive",
+      "description": "Security control 013 - IAM policy",
+      "created_date": "2026-01-30T16:49:27.772672"
+    },
+    {
+      "id": "control-014",
+      "type": "sg_rule",
+      "status": "inactive",
+      "description": "Security control 014 - patch requirement",
+      "created_date": "2026-03-02T16:49:27.772672"
+    },
+    {
+      "id": "control-015",
+      "type": "mfa_requirement",
+      "status": "pending",
+      "description": "Security control 015 - IAM policy",
+      "created_date": "2026-03-07T16:49:27.772672"
+    },
+    {
+      "id": "control-016",
+      "type": "patch",
+      "status": "inactive",
+      "description": "Security control 016 - MFA requirement",
+      "created_date": "2025-12-26T16:49:27.772672"
+    },
+    {
+      "id": "control-017",
+      "type": "sg_rule",
+      "status": "active",
+      "description": "Security control 017 - IAM policy",
+      "created_date": "2025-12-28T16:49:27.772672"
+    },
+    {
+      "id": "control-018",
+      "type": "mfa_requirement",
+      "status": "active",
+      "description": "Security control 018 - WAF rule",
+      "created_date": "2026-02-15T16:49:27.772672"
+    },
+    {
+      "id": "control-019",
+      "type": "patch",
+      "status": "inactive",
+      "description": "Security control 019 - firewall rule",
+      "created_date": "2026-02-14T16:49:27.772672"
+    },
+    {
+      "id": "control-020",
+      "type": "iam_policy",
+      "status": "pending",
+      "description": "Security control 020 - firewall rule",
+      "created_date": "2026-01-11T16:49:27.772672"
+    },
+    {
+      "id": "control-021",
+      "type": "iam_policy",
+      "status": "pending",
+      "description": "Security control 021 - MFA requirement",
+      "created_date": "2026-02-15T16:49:27.772672"
+    },
+    {
+      "id": "control-022",
+      "type": "waf_rule",
+      "status": "active",
+      "description": "Security control 022 - MFA requirement",
+      "created_date": "2026-01-31T16:49:27.772672"
+    },
+    {
+      "id": "control-023",
+      "type": "patch",
+      "status": "inactive",
+      "description": "Security control 023 - WAF rule",
+      "created_date": "2026-01-04T16:49:27.772672"
+    },
+    {
+      "id": "control-024",
+      "type": "patch",
+      "status": "inactive",
+      "description": "Security control 024 - patch requirement",
+      "created_date": "2026-01-26T16:49:27.772672"
+    },
+    {
+      "id": "control-025",
+      "type": "mfa_requirement",
+      "status": "inactive",
+      "description": "Security control 025 - WAF rule",
+      "created_date": "2026-03-01T16:49:27.772672"
+    },
+    {
+      "id": "control-026",
+      "type": "waf_rule",
+      "status": "inactive",
+      "description": "Security control 026 - IAM policy",
+      "created_date": "2026-01-25T16:49:27.772672"
+    },
+    {
+      "id": "control-027",
+      "type": "patch",
+      "status": "inactive",
+      "description": "Security control 027 - firewall rule",
+      "created_date": "2025-12-31T16:49:27.772672"
+    },
+    {
+      "id": "control-028",
+      "type": "iam_policy",
+      "status": "pending",
+      "description": "Security control 028 - IAM policy",
+      "created_date": "2026-03-11T16:49:27.772672"
+    },
+    {
+      "id": "control-029",
+      "type": "patch",
+      "status": "pending",
+      "description": "Security control 029 - MFA requirement",
+      "created_date": "2025-12-29T16:49:27.772672"
+    },
+    {
+      "id": "control-030",
+      "type": "waf_rule",
+      "status": "inactive",
+      "description": "Security control 030 - IAM policy",
+      "created_date": "2026-02-16T16:49:27.772672"
+    },
+    {
+      "id": "control-031",
+      "type": "patch",
+      "status": "active",
+      "description": "Security control 031 - WAF rule",
+      "created_date": "2025-12-31T16:49:27.772672"
+    },
+    {
+      "id": "control-032",
+      "type": "iam_policy",
+      "status": "inactive",
+      "description": "Security control 032 - MFA requirement",
+      "created_date": "2025-12-20T16:49:27.772672"
+    },
+    {
+      "id": "control-033",
+      "type": "patch",
+      "status": "inactive",
+      "description": "Security control 033 - WAF rule",
+      "created_date": "2025-12-21T16:49:27.772672"
+    },
+    {
+      "id": "control-034",
+      "type": "waf_rule",
+      "status": "inactive",
+      "description": "Security control 034 - IAM policy",
+      "created_date": "2026-01-27T16:49:27.772672"
+    },
+    {
+      "id": "control-035",
+      "type": "iam_policy",
+      "status": "active",
+      "description": "Security control 035 - MFA requirement",
+      "created_date": "2026-01-10T16:49:27.772672"
+    },
+    {
+      "id": "control-036",
+      "type": "iam_policy",
+      "status": "pending",
+      "description": "Security control 036 - firewall rule",
+      "created_date": "2026-01-05T16:49:27.772672"
+    },
+    {
+      "id": "control-037",
+      "type": "sg_rule",
+      "status": "active",
+      "description": "Security control 037 - firewall rule",
+      "created_date": "2026-03-13T16:49:27.772672"
+    },
+    {
+      "id": "control-038",
+      "type": "waf_rule",
+      "status": "active",
+      "description": "Security control 038 - IAM policy",
+      "created_date": "2026-03-05T16:49:27.772672"
+    },
+    {
+      "id": "control-039",
+      "type": "iam_policy",
+      "status": "active",
+      "description": "Security control 039 - IAM policy",
+      "created_date": "2026-01-08T16:49:27.772672"
+    }
+  ],
+  "tags": [
+    {
+      "id": "tag-000",
+      "env": "testing",
+      "owner": "team-gamma",
+      "system": "payment-system",
+      "cost_center": "finance",
+      "compliance": "hipaa"
+    },
+    {
+      "id": "tag-001",
+      "env": "production",
+      "owner": "team-alpha",
+      "system": "logging",
+      "cost_center": "finance",
+      "compliance": "pci"
+    },
+    {
+      "id": "tag-002",
+      "env": "production",
+      "owner": "team-gamma",
+      "system": "logging",
+      "cost_center": "operations",
+      "compliance": "pci"
+    },
+    {
+      "id": "tag-003",
+      "env": "testing",
+      "owner": "team-beta",
+      "system": "payment-system",
+      "cost_center": "engineering",
+      "compliance": "none"
+    },
+    {
+      "id": "tag-004",
+      "env": "staging",
+      "owner": "team-beta",
+      "system": "user-management",
+      "cost_center": "operations",
+      "compliance": "gdpr"
+    },
+    {
+      "id": "tag-005",
+      "env": "development",
+      "owner": "team-delta",
+      "system": "payment-system",
+      "cost_center": "operations",
+      "compliance": "hipaa"
+    },
+    {
+      "id": "tag-006",
+      "env": "testing",
+      "owner": "team-beta",
+      "system": "user-management",
+      "cost_center": "operations",
+      "compliance": "pci"
+    },
+    {
+      "id": "tag-007",
+      "env": "production",
+      "owner": "team-alpha",
+      "system": "monitoring",
+      "cost_center": "finance",
+      "compliance": "hipaa"
+    },
+    {
+      "id": "tag-008",
+      "env": "testing",
+      "owner": "team-alpha",
+      "system": "payment-system",
+      "cost_center": "security",
+      "compliance": "pci"
+    },
+    {
+      "id": "tag-009",
+      "env": "testing",
+      "owner": "team-delta",
+      "system": "analytics",
+      "cost_center": "engineering",
+      "compliance": "none"
+    },
+    {
+      "id": "tag-010",
+      "env": "production",
+      "owner": "team-beta",
+      "system": "user-management",
+      "cost_center": "finance",
+      "compliance": "gdpr"
+    },
+    {
+      "id": "tag-011",
+      "env": "production",
+      "owner": "team-alpha",
+      "system": "analytics",
+      "cost_center": "engineering",
+      "compliance": "sox"
+    },
+    {
+      "id": "tag-012",
+      "env": "development",
+      "owner": "team-alpha",
+      "system": "user-management",
+      "cost_center": "security",
+      "compliance": "hipaa"
+    },
+    {
+      "id": "tag-013",
+      "env": "production",
+      "owner": "team-gamma",
+      "system": "user-management",
+      "cost_center": "security",
+      "compliance": "none"
+    },
+    {
+      "id": "tag-014",
+      "env": "testing",
+      "owner": "team-gamma",
+      "system": "monitoring",
+      "cost_center": "security",
+      "compliance": "pci"
+    },
+    {
+      "id": "tag-015",
+      "env": "development",
+      "owner": "team-alpha",
+      "system": "payment-system",
+      "cost_center": "finance",
+      "compliance": "sox"
+    },
+    {
+      "id": "tag-016",
+      "env": "production",
+      "owner": "team-gamma",
+      "system": "logging",
+      "cost_center": "finance",
+      "compliance": "gdpr"
+    },
+    {
+      "id": "tag-017",
+      "env": "production",
+      "owner": "team-gamma",
+      "system": "monitoring",
+      "cost_center": "finance",
+      "compliance": "sox"
+    },
+    {
+      "id": "tag-018",
+      "env": "development",
+      "owner": "team-delta",
+      "system": "monitoring",
+      "cost_center": "security",
+      "compliance": "none"
+    },
+    {
+      "id": "tag-019",
+      "env": "testing",
+      "owner": "team-alpha",
+      "system": "logging",
+      "cost_center": "operations",
+      "compliance": "sox"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "RUNS",
+      "source_id": "asset-018",
+      "target_id": "software-005",
+      "properties": {
+        "version": "3.1.1",
+        "installed_date": "2025-10-27T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-031",
+      "target_id": "software-045",
+      "properties": {
+        "version": "4.8.12",
+        "installed_date": "2025-04-23T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-036",
+      "target_id": "software-024",
+      "properties": {
+        "version": "1.3.9",
+        "installed_date": "2025-10-02T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-038",
+      "target_id": "software-005",
+      "properties": {
+        "version": "3.1.1",
+        "installed_date": "2026-03-11T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-126",
+      "target_id": "software-048",
+      "properties": {
+        "version": "2.1.4",
+        "installed_date": "2025-10-26T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-135",
+      "target_id": "software-005",
+      "properties": {
+        "version": "3.1.1",
+        "installed_date": "2025-12-08T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-153",
+      "target_id": "software-035",
+      "properties": {
+        "version": "4.4.20",
+        "installed_date": "2025-06-02T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-167",
+      "target_id": "software-006",
+      "properties": {
+        "version": "4.9.14",
+        "installed_date": "2026-02-28T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-170",
+      "target_id": "software-035",
+      "properties": {
+        "version": "4.4.20",
+        "installed_date": "2026-01-25T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-190",
+      "target_id": "software-020",
+      "properties": {
+        "version": "2.1.14",
+        "installed_date": "2025-08-28T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-193",
+      "target_id": "software-026",
+      "properties": {
+        "version": "3.6.12",
+        "installed_date": "2025-08-27T16:49:27.772672"
+      }
+    },
+    {
+      "type": "RUNS",
+      "source_id": "asset-196",
+      "target_id": "software-046",
+      "properties": {
+        "version": "1.4.8",
+        "installed_date": "2025-05-31T16:49:27.772672"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-003",
+      "target_id": "CVE-2021-1675",
+      "properties": {
+        "detected_at": "2026-03-08T16:49:27.772672",
+        "status": "confirmed"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-004",
+      "target_id": "CVE-2021-45046",
+      "properties": {
+        "detected_at": "2026-02-26T16:49:27.772672",
+        "status": "confirmed"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-005",
+      "target_id": "CVE-2021-21972",
+      "properties": {
+        "detected_at": "2026-03-05T16:49:27.772672",
+        "status": "investigating"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-006",
+      "target_id": "CVE-2021-1675",
+      "properties": {
+        "detected_at": "2026-03-11T16:49:27.772672",
+        "status": "investigating"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-007",
+      "target_id": "CVE-2021-20016",
+      "properties": {
+        "detected_at": "2026-02-18T16:49:27.772672",
+        "status": "false_positive"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-011",
+      "target_id": "CVE-2021-45046",
+      "properties": {
+        "detected_at": "2026-03-01T16:49:27.772672",
+        "status": "investigating"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-024",
+      "target_id": "CVE-2021-1675",
+      "properties": {
+        "detected_at": "2026-03-03T16:49:27.772672",
+        "status": "investigating"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-030",
+      "target_id": "CVE-2021-1675",
+      "properties": {
+        "detected_at": "2026-03-01T16:49:27.772672",
+        "status": "investigating"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-031",
+      "target_id": "CVE-2021-26855",
+      "properties": {
+        "detected_at": "2026-03-07T16:49:27.772672",
+        "status": "false_positive"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-033",
+      "target_id": "CVE-2021-41773",
+      "properties": {
+        "detected_at": "2026-02-24T16:49:27.772672",
+        "status": "confirmed"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-038",
+      "target_id": "CVE-2021-21972",
+      "properties": {
+        "detected_at": "2026-03-11T16:49:27.772672",
+        "status": "investigating"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-040",
+      "target_id": "CVE-2021-41773",
+      "properties": {
+        "detected_at": "2026-03-06T16:49:27.772672",
+        "status": "investigating"
+      }
+    },
+    {
+      "type": "HAS_VULN",
+      "source_id": "software-044",
+      "target_id": "CVE-2021-1675",
+      "properties": {
+        "detected_at": "2026-02-26T16:49:27.772672",
+        "status": "false_positive"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-34527",
+      "target_id": "finding-068",
+      "properties": {
+        "detected_at": "2026-02-26T16:49:27.771672",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-34527",
+      "target_id": "finding-010",
+      "properties": {
+        "detected_at": "2026-02-26T16:49:27.770674",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-45046",
+      "target_id": "finding-031",
+      "properties": {
+        "detected_at": "2026-03-09T16:49:27.771672",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-20016",
+      "target_id": "finding-045",
+      "properties": {
+        "detected_at": "2026-02-24T16:49:27.771672",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-22205",
+      "target_id": "finding-078",
+      "properties": {
+        "detected_at": "2026-03-11T16:49:27.771672",
+        "status": "open"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-41773",
+      "target_id": "finding-082",
+      "properties": {
+        "detected_at": "2026-03-09T16:49:27.771672",
+        "status": "false_positive"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-20016",
+      "target_id": "finding-051",
+      "properties": {
+        "detected_at": "2026-03-07T16:49:27.771672",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-41773",
+      "target_id": "finding-055",
+      "properties": {
+        "detected_at": "2026-03-13T16:49:27.771672",
+        "status": "false_positive"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-21972",
+      "target_id": "finding-012",
+      "properties": {
+        "detected_at": "2026-03-01T16:49:27.770674",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-34527",
+      "target_id": "finding-065",
+      "properties": {
+        "detected_at": "2026-03-13T16:49:27.771672",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-21972",
+      "target_id": "finding-088",
+      "properties": {
+        "detected_at": "2026-02-17T16:49:27.771672",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-41773",
+      "target_id": "finding-057",
+      "properties": {
+        "detected_at": "2026-02-21T16:49:27.771672",
+        "status": "open"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-45046",
+      "target_id": "finding-059",
+      "properties": {
+        "detected_at": "2026-02-12T16:49:27.771672",
+        "status": "false_positive"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-21972",
+      "target_id": "finding-064",
+      "properties": {
+        "detected_at": "2026-02-18T16:49:27.771672",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-26855",
+      "target_id": "finding-003",
+      "properties": {
+        "detected_at": "2026-02-22T16:49:27.770674",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-1675",
+      "target_id": "finding-037",
+      "properties": {
+        "detected_at": "2026-03-08T16:49:27.771672",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-41773",
+      "target_id": "finding-010",
+      "properties": {
+        "detected_at": "2026-02-26T16:49:27.770674",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-45046",
+      "target_id": "finding-093",
+      "properties": {
+        "detected_at": "2026-02-15T16:49:27.771672",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-21972",
+      "target_id": "finding-039",
+      "properties": {
+        "detected_at": "2026-03-03T16:49:27.771672",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-20016",
+      "target_id": "finding-026",
+      "properties": {
+        "detected_at": "2026-02-17T16:49:27.771672",
+        "status": "open"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-41773",
+      "target_id": "finding-044",
+      "properties": {
+        "detected_at": "2026-02-22T16:49:27.771672",
+        "status": "in_progress"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-1675",
+      "target_id": "finding-056",
+      "properties": {
+        "detected_at": "2026-02-26T16:49:27.771672",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-20016",
+      "target_id": "finding-008",
+      "properties": {
+        "detected_at": "2026-02-16T16:49:27.770674",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-45046",
+      "target_id": "finding-090",
+      "properties": {
+        "detected_at": "2026-03-09T16:49:27.771672",
+        "status": "open"
+      }
+    },
+    {
+      "type": "HAS_FINDING",
+      "source_id": "CVE-2021-41773",
+      "target_id": "finding-043",
+      "properties": {
+        "detected_at": "2026-02-12T16:49:27.771672",
+        "status": "resolved"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-036",
+      "target_id": "asset-190",
+      "properties": {
+        "protocol": "tcp",
+        "port": 57875,
+        "encrypted": true,
+        "last_seen": "2026-03-07T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-190",
+      "target_id": "asset-048",
+      "properties": {
+        "protocol": "tcp",
+        "port": 38811,
+        "encrypted": false,
+        "last_seen": "2026-03-08T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-036",
+      "target_id": "asset-071",
+      "properties": {
+        "protocol": "tcp",
+        "port": 13487,
+        "encrypted": false,
+        "last_seen": "2026-03-13T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-036",
+      "target_id": "asset-124",
+      "properties": {
+        "protocol": "tcp",
+        "port": 29987,
+        "encrypted": true,
+        "last_seen": "2026-03-10T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-124",
+      "target_id": "asset-144",
+      "properties": {
+        "protocol": "tcp",
+        "port": 43956,
+        "encrypted": false,
+        "last_seen": "2026-03-09T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-036",
+      "target_id": "asset-167",
+      "properties": {
+        "protocol": "tcp",
+        "port": 40460,
+        "encrypted": true,
+        "last_seen": "2026-03-10T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-167",
+      "target_id": "asset-170",
+      "properties": {
+        "protocol": "tcp",
+        "port": 60207,
+        "encrypted": true,
+        "last_seen": "2026-03-12T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-036",
+      "target_id": "asset-031",
+      "properties": {
+        "protocol": "tcp",
+        "port": 11997,
+        "encrypted": false,
+        "last_seen": "2026-03-12T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-031",
+      "target_id": "asset-171",
+      "properties": {
+        "protocol": "tcp",
+        "port": 33478,
+        "encrypted": false,
+        "last_seen": "2026-03-08T16:49:27.772672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-036",
+      "target_id": "asset-170",
+      "properties": {
+        "protocol": "tcp",
+        "port": 45445,
+        "encrypted": true,
+        "last_seen": "2026-03-12T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-170",
+      "target_id": "asset-181",
+      "properties": {
+        "protocol": "tcp",
+        "port": 32090,
+        "encrypted": false,
+        "last_seen": "2026-03-12T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-048",
+      "properties": {
+        "protocol": "udp",
+        "port": 40594,
+        "encrypted": true,
+        "last_seen": "2026-03-09T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-038",
+      "properties": {
+        "protocol": "tcp",
+        "port": 53426,
+        "encrypted": false,
+        "last_seen": "2026-03-07T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-038",
+      "target_id": "asset-071",
+      "properties": {
+        "protocol": "tcp",
+        "port": 26814,
+        "encrypted": false,
+        "last_seen": "2026-03-08T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-036",
+      "properties": {
+        "protocol": "tcp",
+        "port": 5418,
+        "encrypted": true,
+        "last_seen": "2026-03-11T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-036",
+      "target_id": "asset-099",
+      "properties": {
+        "protocol": "tcp",
+        "port": 19143,
+        "encrypted": true,
+        "last_seen": "2026-03-10T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-144",
+      "properties": {
+        "protocol": "udp",
+        "port": 11024,
+        "encrypted": false,
+        "last_seen": "2026-03-07T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-031",
+      "properties": {
+        "protocol": "tcp",
+        "port": 17557,
+        "encrypted": false,
+        "last_seen": "2026-03-14T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-031",
+      "target_id": "asset-163",
+      "properties": {
+        "protocol": "tcp",
+        "port": 49808,
+        "encrypted": false,
+        "last_seen": "2026-03-11T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-193",
+      "properties": {
+        "protocol": "tcp",
+        "port": 49241,
+        "encrypted": true,
+        "last_seen": "2026-03-10T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-170",
+      "properties": {
+        "protocol": "tcp",
+        "port": 57332,
+        "encrypted": true,
+        "last_seen": "2026-03-07T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-171",
+      "properties": {
+        "protocol": "tcp",
+        "port": 28775,
+        "encrypted": true,
+        "last_seen": "2026-03-11T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-174",
+      "properties": {
+        "protocol": "udp",
+        "port": 56430,
+        "encrypted": false,
+        "last_seen": "2026-03-12T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-135",
+      "target_id": "asset-196",
+      "properties": {
+        "protocol": "tcp",
+        "port": 19179,
+        "encrypted": false,
+        "last_seen": "2026-03-10T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-196",
+      "target_id": "asset-099",
+      "properties": {
+        "protocol": "tcp",
+        "port": 62417,
+        "encrypted": true,
+        "last_seen": "2026-03-12T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-135",
+      "target_id": "asset-036",
+      "properties": {
+        "protocol": "tcp",
+        "port": 16363,
+        "encrypted": true,
+        "last_seen": "2026-03-09T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-036",
+      "target_id": "asset-170",
+      "properties": {
+        "protocol": "tcp",
+        "port": 54296,
+        "encrypted": true,
+        "last_seen": "2026-03-08T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-135",
+      "target_id": "asset-174",
+      "properties": {
+        "protocol": "udp",
+        "port": 24588,
+        "encrypted": false,
+        "last_seen": "2026-03-13T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-048",
+      "properties": {
+        "protocol": "udp",
+        "port": 45529,
+        "encrypted": false,
+        "last_seen": "2026-03-07T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-018",
+      "properties": {
+        "protocol": "tcp",
+        "port": 56945,
+        "encrypted": true,
+        "last_seen": "2026-03-07T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-018",
+      "target_id": "asset-071",
+      "properties": {
+        "protocol": "tcp",
+        "port": 41605,
+        "encrypted": false,
+        "last_seen": "2026-03-13T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-135",
+      "properties": {
+        "protocol": "tcp",
+        "port": 54058,
+        "encrypted": true,
+        "last_seen": "2026-03-07T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-135",
+      "target_id": "asset-099",
+      "properties": {
+        "protocol": "tcp",
+        "port": 17599,
+        "encrypted": false,
+        "last_seen": "2026-03-10T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-126",
+      "properties": {
+        "protocol": "tcp",
+        "port": 58600,
+        "encrypted": true,
+        "last_seen": "2026-03-14T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-163",
+      "properties": {
+        "protocol": "tcp",
+        "port": 6526,
+        "encrypted": false,
+        "last_seen": "2026-03-14T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-170",
+      "properties": {
+        "protocol": "tcp",
+        "port": 28921,
+        "encrypted": false,
+        "last_seen": "2026-03-14T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-196",
+      "properties": {
+        "protocol": "tcp",
+        "port": 59599,
+        "encrypted": true,
+        "last_seen": "2026-03-10T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-196",
+      "target_id": "asset-171",
+      "properties": {
+        "protocol": "tcp",
+        "port": 10419,
+        "encrypted": false,
+        "last_seen": "2026-03-13T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-126",
+      "properties": {
+        "protocol": "tcp",
+        "port": 43550,
+        "encrypted": true,
+        "last_seen": "2026-03-14T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-126",
+      "target_id": "asset-174",
+      "properties": {
+        "protocol": "tcp",
+        "port": 25975,
+        "encrypted": false,
+        "last_seen": "2026-03-11T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-193",
+      "target_id": "asset-031",
+      "properties": {
+        "protocol": "tcp",
+        "port": 72,
+        "encrypted": true,
+        "last_seen": "2026-03-07T16:49:27.773672"
+      }
+    },
+    {
+      "type": "CONNECTS_TO",
+      "source_id": "asset-031",
+      "target_id": "asset-181",
+      "properties": {
+        "protocol": "tcp",
+        "port": 5108,
+        "encrypted": true,
+        "last_seen": "2026-03-11T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-005",
+      "target_id": "asset-116",
+      "properties": {
+        "assumed_at": "2026-03-13T16:49:27.773672",
+        "expires_at": "2026-03-19T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-008",
+      "target_id": "asset-043",
+      "properties": {
+        "assumed_at": "2026-02-14T16:49:27.773672",
+        "expires_at": "2026-10-17T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-024",
+      "target_id": "asset-120",
+      "properties": {
+        "assumed_at": "2026-03-11T16:49:27.773672",
+        "expires_at": "2026-07-10T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-037",
+      "target_id": "asset-189",
+      "properties": {
+        "assumed_at": "2026-02-16T16:49:27.773672",
+        "expires_at": "2026-05-06T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-046",
+      "target_id": "asset-095",
+      "properties": {
+        "assumed_at": "2026-02-13T16:49:27.773672",
+        "expires_at": "2026-08-15T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-047",
+      "target_id": "asset-195",
+      "properties": {
+        "assumed_at": "2026-02-15T16:49:27.773672",
+        "expires_at": "2026-05-22T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-050",
+      "target_id": "asset-168",
+      "properties": {
+        "assumed_at": "2026-03-09T16:49:27.773672",
+        "expires_at": "2026-04-19T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-056",
+      "target_id": "asset-011",
+      "properties": {
+        "assumed_at": "2026-02-22T16:49:27.773672",
+        "expires_at": "2027-02-10T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-082",
+      "target_id": "asset-095",
+      "properties": {
+        "assumed_at": "2026-02-18T16:49:27.773672",
+        "expires_at": "2026-07-02T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-086",
+      "target_id": "asset-048",
+      "properties": {
+        "assumed_at": "2026-02-12T16:49:27.773672",
+        "expires_at": "2026-10-11T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-105",
+      "target_id": "asset-116",
+      "properties": {
+        "assumed_at": "2026-02-14T16:49:27.773672",
+        "expires_at": "2026-07-04T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-108",
+      "target_id": "asset-043",
+      "properties": {
+        "assumed_at": "2026-03-09T16:49:27.773672",
+        "expires_at": "2026-05-17T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-121",
+      "target_id": "asset-107",
+      "properties": {
+        "assumed_at": "2026-03-02T16:49:27.773672",
+        "expires_at": "2026-10-20T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-130",
+      "target_id": "asset-048",
+      "properties": {
+        "assumed_at": "2026-03-06T16:49:27.773672",
+        "expires_at": "2026-08-03T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-145",
+      "target_id": "asset-068",
+      "properties": {
+        "assumed_at": "2026-02-24T16:49:27.773672",
+        "expires_at": "2027-01-16T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-148",
+      "target_id": "asset-157",
+      "properties": {
+        "assumed_at": "2026-03-04T16:49:27.773672",
+        "expires_at": "2027-03-03T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-158",
+      "target_id": "asset-168",
+      "properties": {
+        "assumed_at": "2026-02-13T16:49:27.773672",
+        "expires_at": "2026-08-16T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-162",
+      "target_id": "asset-157",
+      "properties": {
+        "assumed_at": "2026-02-25T16:49:27.773672",
+        "expires_at": "2026-06-19T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-166",
+      "target_id": "asset-074",
+      "properties": {
+        "assumed_at": "2026-02-21T16:49:27.773672",
+        "expires_at": "2026-04-11T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-177",
+      "target_id": "asset-068",
+      "properties": {
+        "assumed_at": "2026-02-26T16:49:27.773672",
+        "expires_at": "2026-09-28T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-186",
+      "target_id": "asset-120",
+      "properties": {
+        "assumed_at": "2026-02-21T16:49:27.773672",
+        "expires_at": "2027-01-13T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ASSUMES",
+      "source_id": "asset-198",
+      "target_id": "asset-011",
+      "properties": {
+        "assumed_at": "2026-03-02T16:49:27.773672",
+        "expires_at": "2026-08-24T16:49:27.773672"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-011",
+      "target_id": "asset-181",
+      "properties": {
+        "action": "admin",
+        "resource": "ec2:*",
+        "condition": "ip-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-013",
+      "target_id": "asset-180",
+      "properties": {
+        "action": "admin",
+        "resource": "*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-016",
+      "target_id": "asset-012",
+      "properties": {
+        "action": "execute",
+        "resource": "s3://*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-053",
+      "target_id": "asset-065",
+      "properties": {
+        "action": "admin",
+        "resource": "rds:*",
+        "condition": "ip-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-062",
+      "target_id": "asset-129",
+      "properties": {
+        "action": "write",
+        "resource": "ec2:*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-068",
+      "target_id": "asset-094",
+      "properties": {
+        "action": "write",
+        "resource": "s3://*",
+        "condition": "ip-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-069",
+      "target_id": "asset-118",
+      "properties": {
+        "action": "read",
+        "resource": "ec2:*",
+        "condition": "ip-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-074",
+      "target_id": "asset-181",
+      "properties": {
+        "action": "write",
+        "resource": "*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-087",
+      "target_id": "asset-085",
+      "properties": {
+        "action": "read",
+        "resource": "rds:*",
+        "condition": "ip-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-095",
+      "target_id": "asset-065",
+      "properties": {
+        "action": "write",
+        "resource": "*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-107",
+      "target_id": "asset-173",
+      "properties": {
+        "action": "read",
+        "resource": "s3://*",
+        "condition": "time-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-116",
+      "target_id": "asset-180",
+      "properties": {
+        "action": "execute",
+        "resource": "s3://*",
+        "condition": "time-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-120",
+      "target_id": "asset-180",
+      "properties": {
+        "action": "execute",
+        "resource": "*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-122",
+      "target_id": "asset-085",
+      "properties": {
+        "action": "execute",
+        "resource": "*",
+        "condition": "time-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-123",
+      "target_id": "asset-118",
+      "properties": {
+        "action": "read",
+        "resource": "rds:*",
+        "condition": "time-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-156",
+      "target_id": "asset-012",
+      "properties": {
+        "action": "admin",
+        "resource": "s3://*",
+        "condition": "time-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-157",
+      "target_id": "asset-180",
+      "properties": {
+        "action": "read",
+        "resource": "*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-160",
+      "target_id": "asset-012",
+      "properties": {
+        "action": "read",
+        "resource": "*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-168",
+      "target_id": "asset-071",
+      "properties": {
+        "action": "admin",
+        "resource": "s3://*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-189",
+      "target_id": "asset-094",
+      "properties": {
+        "action": "admin",
+        "resource": "s3://*",
+        "condition": "time-based"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-195",
+      "target_id": "asset-173",
+      "properties": {
+        "action": "execute",
+        "resource": "ec2:*",
+        "condition": ""
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-023",
+      "target_id": "asset-018",
+      "properties": {
+        "priority": 65
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-004",
+      "target_id": "asset-031",
+      "properties": {
+        "priority": 23
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-172",
+      "target_id": "asset-036",
+      "properties": {
+        "priority": 6
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-140",
+      "target_id": "asset-124",
+      "properties": {
+        "priority": 37
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-090",
+      "target_id": "asset-126",
+      "properties": {
+        "priority": 42
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-140",
+      "target_id": "asset-135",
+      "properties": {
+        "priority": 2
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-090",
+      "target_id": "asset-153",
+      "properties": {
+        "priority": 73
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-063",
+      "target_id": "asset-167",
+      "properties": {
+        "priority": 60
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-147",
+      "target_id": "asset-170",
+      "properties": {
+        "priority": 99
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-176",
+      "target_id": "asset-190",
+      "properties": {
+        "priority": 98
+      }
+    },
+    {
+      "type": "APPLIES_TO",
+      "source_id": "asset-042",
+      "target_id": "asset-193",
+      "properties": {
+        "priority": 1
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-002",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 35491,
+        "protocol": "udp",
+        "cidr": "0.0.0.0/0",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-019",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 43078,
+        "protocol": "udp",
+        "cidr": "172.16.0.0/12",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-023",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 34722,
+        "protocol": "tcp",
+        "cidr": "192.168.0.0/16",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-042",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 3926,
+        "protocol": "tcp",
+        "cidr": "172.16.0.0/12",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-054",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 60377,
+        "protocol": "tcp",
+        "cidr": "192.168.0.0/16",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-063",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 63869,
+        "protocol": "icmp",
+        "cidr": "0.0.0.0/0",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-076",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 33124,
+        "protocol": "tcp",
+        "cidr": "192.168.0.0/16",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-090",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 37213,
+        "protocol": "tcp",
+        "cidr": "192.168.0.0/16",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-119",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 8567,
+        "protocol": "tcp",
+        "cidr": "172.16.0.0/12",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-127",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 20645,
+        "protocol": "udp",
+        "cidr": "172.16.0.0/12",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-131",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 17823,
+        "protocol": "tcp",
+        "cidr": "0.0.0.0/0",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-140",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 50473,
+        "protocol": "icmp",
+        "cidr": "0.0.0.0/0",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-147",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 10773,
+        "protocol": "udp",
+        "cidr": "192.168.0.0/16",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-172",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 7913,
+        "protocol": "icmp",
+        "cidr": "172.16.0.0/12",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "ALLOWS",
+      "source_id": "asset-194",
+      "target_id": "ingress-rule",
+      "properties": {
+        "port": 20206,
+        "protocol": "udp",
+        "cidr": "172.16.0.0/12",
+        "direction": "ingress"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-001",
+      "target_id": "tag-009",
+      "properties": {
+        "applied_at": "2026-02-15T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-002",
+      "target_id": "tag-019",
+      "properties": {
+        "applied_at": "2026-03-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-003",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-03-09T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-004",
+      "target_id": "tag-007",
+      "properties": {
+        "applied_at": "2026-03-02T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-005",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-02-20T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-006",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-03-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-009",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-010",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-02-16T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-011",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-03-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-012",
+      "target_id": "tag-007",
+      "properties": {
+        "applied_at": "2026-03-09T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-013",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-03-02T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-014",
+      "target_id": "tag-002",
+      "properties": {
+        "applied_at": "2026-02-23T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-015",
+      "target_id": "tag-002",
+      "properties": {
+        "applied_at": "2026-03-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-017",
+      "target_id": "tag-014",
+      "properties": {
+        "applied_at": "2026-02-16T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-018",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-03-10T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-019",
+      "target_id": "tag-014",
+      "properties": {
+        "applied_at": "2026-03-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-020",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-02-28T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-022",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-03-01T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-023",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-03-02T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-024",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-025",
+      "target_id": "tag-004",
+      "properties": {
+        "applied_at": "2026-03-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-026",
+      "target_id": "tag-019",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-027",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-28T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-029",
+      "target_id": "tag-002",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-030",
+      "target_id": "tag-013",
+      "properties": {
+        "applied_at": "2026-03-07T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-031",
+      "target_id": "tag-016",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-032",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-02-16T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-033",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-02-16T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-034",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-24T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-035",
+      "target_id": "tag-011",
+      "properties": {
+        "applied_at": "2026-02-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-036",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-03-01T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-037",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-03-03T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-038",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-02-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-040",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-25T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-041",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-043",
+      "target_id": "tag-007",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-044",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-02-17T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-046",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-03-02T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-049",
+      "target_id": "tag-007",
+      "properties": {
+        "applied_at": "2026-02-23T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-050",
+      "target_id": "tag-011",
+      "properties": {
+        "applied_at": "2026-02-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-051",
+      "target_id": "tag-011",
+      "properties": {
+        "applied_at": "2026-02-23T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-052",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-03-07T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-056",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-02-26T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-057",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-058",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-02-25T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-059",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-02-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-060",
+      "target_id": "tag-004",
+      "properties": {
+        "applied_at": "2026-03-03T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-061",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-03-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-062",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-02-19T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-064",
+      "target_id": "tag-016",
+      "properties": {
+        "applied_at": "2026-02-14T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-065",
+      "target_id": "tag-002",
+      "properties": {
+        "applied_at": "2026-03-02T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-066",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-02-23T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-067",
+      "target_id": "tag-009",
+      "properties": {
+        "applied_at": "2026-03-03T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-068",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-02-18T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-070",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-21T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-071",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-02-19T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-073",
+      "target_id": "tag-011",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-074",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-03-01T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-075",
+      "target_id": "tag-009",
+      "properties": {
+        "applied_at": "2026-03-09T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-076",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-02-19T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-078",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-03-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-079",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-02-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-081",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-03-10T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-083",
+      "target_id": "tag-002",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-084",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-03-08T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-085",
+      "target_id": "tag-002",
+      "properties": {
+        "applied_at": "2026-02-15T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-086",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-02-27T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-087",
+      "target_id": "tag-006",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-088",
+      "target_id": "tag-011",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-089",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-03-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-090",
+      "target_id": "tag-013",
+      "properties": {
+        "applied_at": "2026-03-08T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-092",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-03-02T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-093",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-02-15T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-094",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-02-21T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-095",
+      "target_id": "tag-007",
+      "properties": {
+        "applied_at": "2026-03-08T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-096",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-03-04T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-097",
+      "target_id": "tag-008",
+      "properties": {
+        "applied_at": "2026-03-10T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-098",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-02-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-099",
+      "target_id": "tag-002",
+      "properties": {
+        "applied_at": "2026-02-24T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-102",
+      "target_id": "tag-019",
+      "properties": {
+        "applied_at": "2026-02-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-103",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-02-28T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-105",
+      "target_id": "tag-013",
+      "properties": {
+        "applied_at": "2026-03-08T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-106",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-03-07T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-108",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-02-18T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-110",
+      "target_id": "tag-009",
+      "properties": {
+        "applied_at": "2026-03-04T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-111",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-03-01T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-112",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-03-09T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-113",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-02-28T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-114",
+      "target_id": "tag-019",
+      "properties": {
+        "applied_at": "2026-02-26T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-115",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-03-07T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-116",
+      "target_id": "tag-009",
+      "properties": {
+        "applied_at": "2026-03-11T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-117",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-03-04T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-118",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-26T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-120",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-03-01T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-121",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-03-02T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-122",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-123",
+      "target_id": "tag-008",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-125",
+      "target_id": "tag-004",
+      "properties": {
+        "applied_at": "2026-02-17T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-126",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-03-11T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-127",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-02-28T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-129",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-03-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-132",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-02-20T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-134",
+      "target_id": "tag-007",
+      "properties": {
+        "applied_at": "2026-02-26T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-135",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-02-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-137",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-02-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-138",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-02-20T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-140",
+      "target_id": "tag-014",
+      "properties": {
+        "applied_at": "2026-03-08T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-142",
+      "target_id": "tag-006",
+      "properties": {
+        "applied_at": "2026-02-16T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-143",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-02-28T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-144",
+      "target_id": "tag-013",
+      "properties": {
+        "applied_at": "2026-03-07T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-146",
+      "target_id": "tag-019",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-147",
+      "target_id": "tag-002",
+      "properties": {
+        "applied_at": "2026-03-11T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-148",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-02-24T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-149",
+      "target_id": "tag-008",
+      "properties": {
+        "applied_at": "2026-02-25T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-150",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-02-16T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-151",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-02-25T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-152",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-02-28T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-153",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-02-23T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-154",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-02-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-155",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-02-16T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-156",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-02-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-157",
+      "target_id": "tag-013",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-158",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-23T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-159",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-03-08T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-160",
+      "target_id": "tag-004",
+      "properties": {
+        "applied_at": "2026-02-22T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-161",
+      "target_id": "tag-012",
+      "properties": {
+        "applied_at": "2026-03-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-162",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-02-19T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-163",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-12T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-164",
+      "target_id": "tag-011",
+      "properties": {
+        "applied_at": "2026-03-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-165",
+      "target_id": "tag-009",
+      "properties": {
+        "applied_at": "2026-03-04T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-166",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-14T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-167",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-02-14T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-168",
+      "target_id": "tag-009",
+      "properties": {
+        "applied_at": "2026-02-18T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-169",
+      "target_id": "tag-010",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-170",
+      "target_id": "tag-019",
+      "properties": {
+        "applied_at": "2026-02-21T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-171",
+      "target_id": "tag-014",
+      "properties": {
+        "applied_at": "2026-03-07T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-173",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-17T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-174",
+      "target_id": "tag-011",
+      "properties": {
+        "applied_at": "2026-02-15T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-175",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-03-11T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-176",
+      "target_id": "tag-016",
+      "properties": {
+        "applied_at": "2026-03-01T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-177",
+      "target_id": "tag-016",
+      "properties": {
+        "applied_at": "2026-02-13T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-178",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-03-07T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-180",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-03-06T16:49:27.774674"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-181",
+      "target_id": "tag-001",
+      "properties": {
+        "applied_at": "2026-02-12T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-182",
+      "target_id": "tag-006",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-183",
+      "target_id": "tag-014",
+      "properties": {
+        "applied_at": "2026-02-25T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-184",
+      "target_id": "tag-003",
+      "properties": {
+        "applied_at": "2026-02-20T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-185",
+      "target_id": "tag-011",
+      "properties": {
+        "applied_at": "2026-02-26T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-186",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-02-14T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-187",
+      "target_id": "tag-017",
+      "properties": {
+        "applied_at": "2026-03-02T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-188",
+      "target_id": "tag-008",
+      "properties": {
+        "applied_at": "2026-02-18T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-190",
+      "target_id": "tag-000",
+      "properties": {
+        "applied_at": "2026-03-01T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-191",
+      "target_id": "tag-018",
+      "properties": {
+        "applied_at": "2026-02-17T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-194",
+      "target_id": "tag-006",
+      "properties": {
+        "applied_at": "2026-03-05T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-195",
+      "target_id": "tag-016",
+      "properties": {
+        "applied_at": "2026-03-13T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-198",
+      "target_id": "tag-015",
+      "properties": {
+        "applied_at": "2026-02-12T16:49:27.775673"
+      }
+    },
+    {
+      "type": "TAGGED",
+      "source_id": "asset-199",
+      "target_id": "tag-005",
+      "properties": {
+        "applied_at": "2026-02-22T16:49:27.775673"
+      }
+    }
+  ]
+}
