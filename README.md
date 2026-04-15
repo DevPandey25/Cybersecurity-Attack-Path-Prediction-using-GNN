@@ -131,6 +131,6 @@ MIT License.
 
 📞 Contact
 
-Manan Pal
-Email: mananpal27@gmail.com
-GitHub: https://github.com/mananpal-dev
+Dev Prasad Pandey
+
+Email Id: devpandey25.in@gamil.com
